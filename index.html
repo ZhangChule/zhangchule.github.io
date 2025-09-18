@@ -6,42 +6,44 @@
   <style>
     body {
       font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #000;
-      color: #fff;
+      background: #2f2f2f;
       margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      color: #fff;
     }
     .card {
       text-align: center;
-      max-width: 400px;
-      width: 90%;
     }
     .title {
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 500;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.8rem;
       color: #fff;
     }
     input {
-      margin: 0.5rem 0 1rem 0;
+      margin: 0.6rem 0;
       padding: 0.4rem;
       font-size: 0.9rem;
-      border: 1px solid #444;
+      border: none;
       border-radius: 0.5rem;
-      background: #111;
-      color: #fff;
       width: 100%;
+      max-width: 260px;
       font-family: inherit;
+      background: #444;
+      color: #fff;
+    }
+    input::-webkit-calendar-picker-indicator {
+      filter: invert(1);
     }
     #timer {
       font-size: 1rem;
-      font-weight: 500;
+      font-weight: 600;
+      margin-top: 0.8rem;
       color: #fff;
       letter-spacing: 0.5px;
-      white-space: nowrap;
     }
   </style>
 </head>
